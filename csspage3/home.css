@@ -1,0 +1,99 @@
+/*.box{
+	width: 500px;
+	height:500px;
+	border: 1px solid black;
+	margin: 150px 160px 150px 400px
+}*/
+
+.view img{
+	max-height: 200px;
+	object-fit: cover;
+}
+.card img{
+	max-height: 100px;
+	max-width: 100px;
+	height: 50px;
+}
+
+.card{
+	-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12) !important;
+}
+
+.box{
+	background-color: #EFEBE0;
+}
+
+.map{
+	
+	display: flex;
+	justify-content: center;
+}
+
+.map iframe{
+	box-shadow: 0 10px 35px 0px #587E94 !important;
+}
+
+.name{
+	padding:0px;
+	width: 500px;
+	height: 100px;
+	margin: 10px auto;
+	text-align: center;
+	font-size: small;
+}
+
+h1{
+	background-color:#587E94 ;
+	margin-left:100px;
+	margin-right:100px;
+	border-radius: 15px;
+}
+html{
+	width:100%;
+	height:100%;
+}
+
+body{
+	width:100%;
+	height:100%;
+}
+
+.comentBox{
+	padding:1px;
+	width:96%;
+	border:1px solid #000;
+	background-color:#f0f0f0;
+	margin-bottom:10px;
+}
+
+.leftPanelImg{
+	width:10%;
+	float:left;
+}
+
+.leftPanelImg img{
+	border-radius:100%;
+}
+
+.rightPanel{
+	width:85%;
+	float:left;
+	margin-left:1%;
+}
+
+.clear{
+	clear:both;
+}
+
+.form{
+	padding:10%;
+	border:1px solid #000;
+	margin-bottom:10px;
+	text-align:center;
+}
+
+.form input[type="text"], .form textarea,.form input[type="date"]{
+	border:1px solid #000;
+	padding:2px;
+	width:300px;
+}

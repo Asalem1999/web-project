@@ -1,0 +1,155 @@
+body{
+    background-color:#EFEBE0 ;
+}
+.bar{/* a bar section*/
+    width: 430px;
+    height: 60px;
+    margin-left: 500px;
+    margin-top: 5px;
+    border-color: #587E94;
+    border-style: solid;
+    box-shadow: -10px 10px 5px #888888;
+
+}
+.bar .backicon{
+    margin-left: 45px;
+    margin-top: 6px;
+}
+.bar .user{
+    margin-left: 90px;
+    margin-top: 6px;
+}
+.bar .contacticon{
+    margin-left: 90px;
+    margin-top: -25px;
+}
+/* end of the bar*/
+
+footer a img {/* for icons for contact */
+    position: relative;
+    align-items: center;
+    width: 92;
+   height: 100;
+   margin: 0px 50px 30px 230px;
+}
+h1{
+    text-align: right;
+    color: #587E94;
+}
+.logoimage{
+    width: 640px;
+    height: 480px;
+    margin-top: 0px;
+    float: right;
+    margin-left: 410px;
+}
+header{
+    height: 600px;
+}
+/* searching*/
+header .searching {
+    display:block;
+    margin-top: -300px;
+    margin-left: 80px;
+    width: 550px;
+    height: auto;
+    float: left;
+
+}
+header .searching input {
+    width: 380px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 2px solid #587E94;
+    border-radius: 4px;
+    text-align: right;
+    margin-left: 100px;
+  }
+  header .searching button {
+    height: 40px;
+    width: 100px;
+    margin-left: 230px;
+    margin-top: 30px;
+    background-color: #587E94;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/* end of searching*/
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-flex; 
+    float: right;
+}
+div{/* a box inside it number of trucks*/
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  position: relative;
+  margin-top: 10px;
+  
+}
+.truck{ /* the box for each truck */
+  width: 350px;
+  height: auto;
+  border: 2px solid #587E94;
+  box-sizing: border-box;
+  padding: 20px;
+  border-style: solid;
+  margin: 30px 30px;
+  box-shadow: -10px 10px 8px #888888;
+
+  grid-template-columns: repeat(auto-fit, minmax(200px , 1fr));
+}
+
+.text-block {/* inside it the name and the classification*/
+    margin-top: 5px;
+    width:300px;
+    height: 190px;
+    display: block;
+    text-align:center;
+    flex-direction: column;
+
+}
+.text-block h2 { /* name of the truck */
+    font-size: 30px;
+    background-color: #7ba5bdc2;
+    position: relative;
+    text-align: center;
+    margin: 10px 10px;
+    border-radius: 4px;
+    width: 270px;
+    height: 40px;
+  }
+  
+  .text-block p {/* classification of the truck  */
+    font-size: 20px;
+    position: relative;
+    width: 270px;
+    height: 40px;
+    margin: 4px 10px;
+  }
+  .text-block button{/* button المزيد*/
+    position: relative;
+    margin: 20px 70px;
+    margin-right: 90px;
+    width: 100px;
+    height: 30px;
+    background-color: #587E94;
+    color: white;
+    font-size: 18px;
+  }
+.images{/* imag of the truck */
+    margin: 5px 5px;
+    width:300px;
+    height:190px;
+    object-fit: cover;
+}
+
+
