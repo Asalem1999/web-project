@@ -1,0 +1,125 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>foodtruck</title>
+<link  href='home.css' type='text/css' rel='stylesheet'>
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
+
+</head>
+
+<div class="box">
+
+<header>
+    <!--Carousel Wrapper-->
+<div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-2" data-slide-to="1"></li>
+      <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view">
+          <img class="d-block w-100" src="test1.jpg"
+            alt="First slide">
+      
+        </div>
+       
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class=" d-block w-100" src="test2.jpg"
+            alt="Second slide">
+     
+        </div>
+       
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view">
+          <img class="w-100" src="test3.jpg"
+            alt="Third slide">
+        </div>
+       
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+  <!--/.Carousel Wrapper-->
+  <!--/slider -->
+</header>
+<body>
+
+
+
+  <div class="name">
+    <br>
+
+   <h1>
+    4 twins | فور توينز
+   </h1>
+   <p>
+    تصنيف 
+   </p>
+  </div>
+
+ <!-- كلاس الموقع  -->
+<div class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57941.23906617403!2d46.85757305136719!3d24.81847339999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2efe542c2160cf%3A0xe1f0856e5316d074!2zNFR3aW5zIENvZmZlZSB8INmB2YjYsdiq2YjZitmG2LI!5e0!3m2!1sar!2ssa!4v1683492025561!5m2!1sar!2ssa" width="300" height="100" style="border:1px solid  ;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+<!-- الكومنت  -->
+
+
+<div class='form'>
+<h5>Add your comment</h5>
+Name:<input type="text" id="name"/><br/><br/>
+Date:<input type="date" id="date"/><br/><br/>
+Body: <textarea rows="5" col="30" id="bodytext"></textarea><br/><br/>
+<input type="button" id="addComent" value="Add comment"/>
+</div>
+<div id='container'></div>
+<!-- partial -->
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+<script  src="home.js" type='text/javascript'></script>
+
+
+
+
+    <!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js"></script>
+</body>
+</div>
+
+</html>

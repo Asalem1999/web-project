@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+  font-family: 'Cairo ';
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+#navbar img {
+  width: 100px;
+  margin-left: 100px;
+  border-radius: 20px;
+
+
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #587e94;
+  align-items: center;
+  color: white;
+  padding: 0px 100px ;
+  font-size: 19px;
+  border-top: solid #C69C6D;
+  position: fixed;
+  width: 100%;
+}
+header a{
+  color: white;
+  text-decoration: none;
+  margin-right: 10px ;
+  transition: ease .1s;
+
+}
+header a:hover{
+  background-color: #C69C6D;
+  font-size: 24px;
+  border-radius: 15px;
+}
+.carsour{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 25px;
+  background-size: cover
+  ;
+  background-image: url(truck2.jpg);
+  background-attachment: fixed;
+  background-blend-mode:overlay ;
+  background-color: rgba(0, 0, 0, .4);
+
+ 
+}
+.carsour div{
+  margin-left: 80px;
+}
+.carsour span{
+  color: #587e94 
+}
+.carsour a {
+  color: #ffffff;
+  background: #C69C6D;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 18px;
+  transition: ease .1s;
+
+
+}
+
+.carsour a:hover{
+font-size: 24px;
+background-color: #ffffff;
+}
+
+.trucks{
+  text-align: center;
+}
+
+
+
+.trucks h2 {
+  text-align: center;
+  color: #587e94;
+  margin: 30px 0px;
+  border-bottom: solid #C69C6D;
+  display: inline-block;
+ 
+}
+.trucks .container{
+  display: flex;
+  padding: 0px 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+.trucks .card{
+ 
+  margin-right: 20px ;
+  box-shadow: 3px 3px 6px 6px #587e94;
+  padding: 10px;
+  width: 16em;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+  
+
+
+}
+
+.trucks .card .oo{
+  border-radius: 10px;
+  text-align: center;
+  font-size: 15px;
+  justify-content: center;
+
+}
+.card h3 {
+  color: #C69C6D;
+  font-weight: 1000;
+}
+.card p {
+  font-size: 14px;
+}
+
+
+.n{
+  background-color: #587e94;
+  text-align: center;
+}
