@@ -1,9 +1,27 @@
-/*.box{
-	width: 500px;
-	height:500px;
-	border: 1px solid black;
-	margin: 150px 160px 150px 400px
-}*/
+.bar{/* a bar section*/
+    width: 430px;
+    height: 60px;
+    margin-left: 400px;
+    margin-top: 5px;
+    border-color: #587E94;
+    border-style: solid;
+    box-shadow: -10px 10px 5px #888888;
+	display:inline-black;
+
+}
+.bar .backicon{
+    margin-left: 45px;
+    margin-top: 6px;
+}
+.bar .user{
+    margin-left: 180px;
+    margin-top: -85px;
+}
+.bar .contacticon{
+	margin-left: 320px;
+    margin-top: -214px;
+}
+/* end of the bar*/
 
 .view img{
 	max-height: 200px;
