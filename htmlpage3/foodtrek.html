@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>foodtruck</title>
-<link  href='home.css' type='text/css' rel='stylesheet'>
+<link  href='foodtrek.css' type='text/css' rel='stylesheet'>
     <!-- Font Awesome -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 <!-- Google Fonts -->
@@ -16,8 +16,20 @@
 
 </head>
 
-<div class="box">
+ <header>
+     <!--for page logo-->
+ 		 <img class="logoimage" src="logoimage.jpg" alt="logo image">
 
+          <div class="bar"> <!--for icons bar-->
+             <a href="test.html"><img class= "backicon"src="backicon2.png" alt="back icon" width="50" height="50"></a>
+             <a href=""><img class= "user"src="usericon.png" alt="user icon" width="50" height="50"></a>
+             <h1><a href="#contact" ><img class= "contacticon"src="contacticon.png" alt="contact icon"width="50" height="50"></a></h1> 
+         </div>
+		 </header>
+    
+    
+<div class="box">
+<div class="box2">
 <header>
     <!--Carousel Wrapper-->
 <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
@@ -72,40 +84,39 @@
   <!--/.Carousel Wrapper-->
   <!--/slider -->
 </header>
+    </div>
 <body>
 
-
-
+<!--To comment and classification-->
   <div class="name">
     <br>
-
-   <h1>
+   <p class="text1">
     4 twins | فور توينز
-   </h1>
-   <p>
+   </p>
+   <p class="text2">
     تصنيف 
    </p>
   </div>
 
+
+
  <!-- كلاس الموقع  -->
 <div class="map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57941.23906617403!2d46.85757305136719!3d24.81847339999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2efe542c2160cf%3A0xe1f0856e5316d074!2zNFR3aW5zIENvZmZlZSB8INmB2YjYsdiq2YjZitmG2LI!5e0!3m2!1sar!2ssa!4v1683492025561!5m2!1sar!2ssa" width="300" height="100" style="border:1px solid  ;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57941.23906617403!2d46.85757305136719!3d24.81847339999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2efe542c2160cf%3A0xe1f0856e5316d074!2zNFR3aW5zIENvZmZlZSB8INmB2YjYsdiq2YjZitmG2LI!5e0!3m2!1sar!2ssa!4v1683492025561!5m2!1sar!2ssa" width="500" height="200" style="border:1px solid  ;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </div>
 <!-- الكومنت  -->
-
-
 <div class='form'>
 <h5>Add your comment</h5>
 Name:<input type="text" id="name"/><br/><br/>
-Date:<input type="date" id="date"/><br/><br/>
-Body: <textarea rows="5" col="30" id="bodytext"></textarea><br/><br/>
-<input type="button" id="addComent" value="Add comment"/>
+<!--Date:<input type="date" id="date"/><br/><br/>-->
+Body: <textarea rows="1" col="30" id="bodytext"></textarea><br/><br/>
+<input type="button" id="addComent" value="Add comment" onscroll = "function()"/>
 </div>
 <div id='container'></div>
 <!-- partial -->
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-<script  src="home.js" type='text/javascript'></script>
+<script  src="foodtrek.js" type='text/javascript'></script>
 
 
 
