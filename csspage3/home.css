@@ -1,5 +1,5 @@
 .bar{/* a bar section*/
-    width: 430px;
+    width: 430px;https://github.com/Asalem1999/web-project/edit/main/csspage3/home.css
     height: 60px;
     margin-left: 400px;
     margin-top: 5px;
@@ -22,6 +22,35 @@
     margin-top: -214px;
 }
 /* end of the bar*/
+
+
+.logoimage{/*Page logo*/
+	display:inline-black;
+    width: 90px;
+    height: 110px;
+    margin-top: 0px;
+    float: right;
+    margin-left: 400px;
+ 
+}
+
+.box1{
+	width: 1000px;
+	height:700px;
+	border: 1px solid black;
+	margin: 100px 160px 100px 100px;
+	box-shadow: -10px 10px 8px #888888;
+
+}
+
+.box2{
+	display:inline-black;
+	float: right;
+	width: 500px;
+	height:700px;
+	border: 1px solid black;
+	margin-right:0px 
+}
 
 .view img{
 	max-height: 200px;
