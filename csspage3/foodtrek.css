@@ -68,7 +68,7 @@
 }
 
 
-.text1{/*Foodtrek name*/
+.text1{/*foodtrek name*/
 	font-size: 30px;
 	background-color:#7ba5bdc2 ;
 	width: 500px;
@@ -111,7 +111,7 @@ body{
 	margin-top:1px;
 }
 
-#container{/*scroll*/
+#container{/*scroll for comment*/
 	width: 498px;
 	height: 170px;
 	overflow: scroll;
