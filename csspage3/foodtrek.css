@@ -128,7 +128,7 @@ body{
 	text-align:center;
 }
 
-.form input[type="text"], .form textarea,.form input[type="date"]{
+.form input[type="text"], .form textarea{
 	padding:1px;
 	width:300px;
 }
