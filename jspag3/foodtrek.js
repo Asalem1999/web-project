@@ -7,6 +7,13 @@ function render(data){
 $(document).ready(function(){
 //var coment=[{"name": "Wahaj","date": "23 april 2023","coments": "HI I AM WAHAJ" }];
 	
+	const date = new Date();
+	let day = date.getDate();
+	let month = date.getMonth() + 1;
+	let year = date.getFullYear();
+	// This arrangement can be altered based on how we want the date's format to appear.
+	let currentDate = `${day}-${month}-${year}`;
+	document.getElementById("date").value=currentDate;
 	
 	var coment=[];
 	
@@ -34,7 +41,6 @@ $(document).ready(function(){
 
 
 		$('#name').val("");
-		$('#date').val('dd/mm/yyyy');
 		$('#bodytext').val("");
 		
 	});
