@@ -14,6 +14,8 @@ We relied on building the site on the skills we learned during the semester and 
 we also use GitHub for upload our projects, and to update and commit any changes in the code. 
 
 ==========================================================================================
+![image](https://github.com/Asalem1999/web-project/assets/133704212/ef4bfed1-3fdd-4f84-a69b-e2a41fa99ed7)
+![image](https://github.com/Asalem1999/web-project/assets/133704212/ef4bfed1-3fdd-4f84-a69b-e2a41fa99ed7)
 
 
 
