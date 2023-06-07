@@ -2,7 +2,7 @@
 ==========================================================================================
 <h4 >Overview :</h4> 
 It is a website to display all food trucks in public places in Riyadh.
- It contains a collection of different food trucks, and each truck is categorized according to the food it serves. But you must register first to see all trucks. Also, when you select a specific truck, the rating and location of the truck will appear. You can also search the homepage search bar for a specific truck to find it easily.
+ It contains a collection of different food trucks, and each truck is categorized according to the food it serves. But you must register first to see all trucks. Also, when you select a specific truck, the rating and location of the truck will appear. You can also search the homepage search bar for a specific truck to find it easily,you can also Contact us via social media to register with us.
  
  ==========================================================================================
 <h4>Goals  :</h4> 
@@ -16,6 +16,8 @@ we also use GitHub for upload our projects, and to update and commit any changes
 ==========================================================================================
 
 
+
+=========================================================================================
 
 
 ![flow](https://github.com/Asalem1999/web-project/assets/133704212/e5ab87ae-18b7-4482-9581-f2b2ec44aad4)
