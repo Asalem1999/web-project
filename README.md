@@ -1,12 +1,12 @@
 # web-project (وجهتك للتركات )
 ==========================================================================================
 <h4 >Overview :</h4> 
-It is a website to display all food trucks in public places in Riyadh.
- It contains a collection of different food trucks, and each truck is categorized according to the food it serves. But you must register first to see all trucks. Also, when you select a specific truck, the rating and location of the truck will appear. You can also search the homepage search bar for a specific truck to find it easily,you can also Contact us via social media to register with us.
+It is a website to display all the food trucks in a public places in Riyadh city.
+ It's contains a collection of different food trucks, and each truck is categorized according to the food it serves. But you must register first to see all the trucks. Also, when you select a specific truck, the rating and location of the truck will appear. You can also search for specifically  name of the Turk or all the estates that contain a specific classification  in the homepage search box  to make it  easily to find, you can also Contact us via social media to register with us and show your truck in our website.
  
  ==========================================================================================
 <h4>Goals  :</h4> 
-The main goal of our project is to show users all the food trucks available in Riyadh in one site and browse them easily with the ability to find their location easily, and this saves a lot of time and effort for the user .
+The main goal of our project is to show to the users all the food trucks available in Riyadh city in one site and browse them easily with the ability to find their location easily, and it's saves a lot of time and effort for the user .
 
 ==========================================================================================
 <h4>Technologies : </h4> 
@@ -14,14 +14,7 @@ We relied on building the site on the skills we learned during the semester and 
 we also use GitHub for upload our projects, and to update and commit any changes in the code. 
 
 ==========================================================================================
-![image](https://github.com/Asalem1999/web-project/assets/133704212/ef4bfed1-3fdd-4f84-a69b-e2a41fa99ed7)<br>
- login page
-![image](https://github.com/Asalem1999/web-project/assets/133704212/4897d08c-6919-4c74-b38a-0c7dc61f24be)
- homepage
-![image](https://github.com/Asalem1999/web-project/assets/133704212/9b3e280d-099b-495a-9a7a-e132973825b2)
-truckpage
 
-=========================================================================================
 
 ![flow](https://github.com/Asalem1999/web-project/assets/133704212/e5ab87ae-18b7-4482-9581-f2b2ec44aad4)
 <br>
