@@ -15,10 +15,11 @@ we also use GitHub for upload our projects, and to update and commit any changes
 
 ==========================================================================================
 ![image](https://github.com/Asalem1999/web-project/assets/133704212/ef4bfed1-3fdd-4f84-a69b-e2a41fa99ed7)
-<br> login page
+ login page
 ![image](https://github.com/Asalem1999/web-project/assets/133704212/4897d08c-6919-4c74-b38a-0c7dc61f24be)
-<br> homepage
-
+ homepage
+![image](https://github.com/Asalem1999/web-project/assets/133704212/9b3e280d-099b-495a-9a7a-e132973825b2)
+truckpage
 
 =========================================================================================
 
